@@ -29,22 +29,22 @@ const Header = () => {
       const hours = new Date().getHours();
       if (hours >= 22 || hours < 6) {
         setMessage(
-          'BUENAS NOCHES MI WAWITA HERMOSA, Mi amor por ti durará hasta que caiga el último pétalo'
+          'BUENAS NOCHES MI WAWITA HERMOSA, TE AMO MUCHÍSIMO!❤️'
         );
         setAudioSrc(noche);
       } else if (hours >= 6 && hours < 12) {
         setMessage(
-          'BUENOS DÍAS MI PRINCESA, Mi amor por ti durará hasta que caiga el último pétalo'
+          'BUENOS DÍAS MI PRINCESA, TE AMITO DEMASIADOOOOO!❤️'
         );
         setAudioSrc(dia);
       } else if (hours >= 12 && hours < 20) {
         setMessage(
-          'BUENAS TARDES MI AMOR, Mi amor por ti durará hasta que caiga el último pétalo'
+          'BUENAS TARDES MI AMOR, NO OLVIDES QUE AQUÍ ESTOY YO PARA CUIDARTE Y AMARTE SIEMPRE!❤️'
         );
         setAudioSrc(tarde);
       } else {
         setMessage(
-          'BUENAS NOCHES MI BB PRECIOSA, Mi amor por ti durará hasta que caiga el último pétalo'
+          'BUENAS NOCHES MI BB PRECIOSA, QUE TENGAS UNA LINDA NOCHE, TE AMO MUCHO!❤️'
         );
         setAudioSrc(noche);
       }
