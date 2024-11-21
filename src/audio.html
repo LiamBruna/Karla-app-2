@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Test</title>
+</head>
+<body>
+  <audio id="testAudio" autoplay muted>
+    <source src="../src/sounds/tarde.mp3" type="audio/mp3">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+  <script>
+    document.addEventListener('click', () => {
+      const audio = document.getElementById('testAudio');
+      audio.muted = false;
+    });
+  </script>
+</body>
+</html>
